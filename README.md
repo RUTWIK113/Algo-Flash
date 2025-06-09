@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# ⚡ Algo-Flash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Algo-Flash** is a sleek and interactive algorithm visualizer built for intuitive learning. It helps users understand how popular algorithms work step-by-step — visually and in real-time.
+** React + Typescript + Vite
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📊 Real-time sorting animations (Bubble Sort, etc.)
+- 🧩 Custom array input support
+- 🎨 Clean UI with responsive design
+- ⚙️ Built using **React**, **Tailwind CSS**, and **Vite**
+- 🚀 Deployed with **Vercel** for fast global access
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📸 Demo
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+👉 [Live Demo](https://algo-flash.vercel.app)  
+*(Replace with actual link after Vercel deployment)*
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+![AlgoFlash Demo GIF](https://your-demo-gif-url)  
+*(Optional: Add a demo gif/screen recording)*
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: React, Tailwind CSS, Vite
+- **Deployment**: Vercel
+- **Version Control**: Git + GitHub
+
+---
+
+## 🧪 Algorithms Visualized
+
+- ✅ Bubble Sort  
+- 🚧 Coming soon:
+  - Merge Sort
+  - Quick Sort
+  - Insertion Sort
+
+---
+
+## 🛠️ Installation & Development
+
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/RUTWIK113/Algo-Flash.git
+cd Algo-Flash
+npm install
+npm run dev

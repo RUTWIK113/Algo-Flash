@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://algoflash-rutwik.vercel.app/sitemap.xml
